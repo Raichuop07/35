@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram import *
 
-from YukkiMusic import app, userbot, SUDOERS
+from YukkiMusic import app, userbot
 from config import OWNER_ID
 
 USER_ONE = userbot.one     #ASSISTANT ACCOUNT ONE
