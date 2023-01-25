@@ -15,7 +15,7 @@ USER_FIVE = userbot.five   #ASSISTANT ACCOUNT FIVE
 #------------------------------AYUSH-ZEUS--------------------------------#
 
 
-@app.on_message(filters.command(["setdp"]) & filters.user(OWNER_ID)
+@app.on_message(filters.command(["setdp"]) & filters.user(OWNER_ID))
 async def set_pfp(_, message: Message):
 	if message.reply_to_message.photo:
 		replytext = await message.reply_text("» Updating Profile Pic Of Assistant...")
@@ -29,7 +29,7 @@ async def set_pfp(_, message: Message):
 		await message.reply_text("» Reply To A Photo Lomde.")
 
 #------------------------------------------------------------------------#
-@app.on_message(filters.command(["setdp2"]) & filters.user(OWNER_ID)
+@app.on_message(filters.command(["setdp2"]) & filters.user(OWNER_ID))
 async def set_pfp(_, message: Message):
 	if message.reply_to_message.photo:
 		replytext = await message.reply_text("» Updating Profile Pic Of Assistant 2...")
@@ -43,7 +43,7 @@ async def set_pfp(_, message: Message):
 		await message.reply_text("» Reply To A Photo Lomde.")
 #------------------------------------------------------------------------#
 
-@app.on_message(filters.command(["setdp3"]) & filters.user(OWNER_ID)
+@app.on_message(filters.command(["setdp3"]) & filters.user(OWNER_ID))
 async def set_pfp(_, message: Message):
 	if message.reply_to_message.photo:
 		replytext = await message.reply_text("» Updating Profile Pic Of Assistant 3...")
@@ -58,7 +58,7 @@ async def set_pfp(_, message: Message):
 
 #--------------------------------------------------------------------------#
 
-@app.on_message(filters.command(["setdp4"]) & filters.user(OWNER_ID)
+@app.on_message(filters.command(["setdp4"]) & filters.user(OWNER_ID))
 async def set_pfp(_, message: Message):
 	if message.reply_to_message.photo:
 		replytext = await message.reply_text("» Updating Profile Pic Of Assistant 4...")
@@ -73,7 +73,7 @@ async def set_pfp(_, message: Message):
 
 #------------------------------------------------------------------------#
 
-@app.on_message(filters.command(["setdp5"]) & filters.user(OWNER_ID)
+@app.on_message(filters.command(["setdp5"]) & filters.user(OWNER_ID))
 async def set_pfp(_, message: Message):
 	if message.reply_to_message.photo:
 		replytext = await message.reply_text("» Updating Profile Pic Of Assistant 5...")
@@ -92,7 +92,7 @@ async def set_pfp(_, message: Message):
 ###########################################################################
 
 
-@app.on_message(filters.command(["deldp"]) & filters.user(OWNER_ID)
+@app.on_message(filters.command(["deldp"]) & filters.user(OWNER_ID))
 async def del_pfp(_, message: Message):
 	try:
 		pfp = [p async for p in USER_ONE.get_chat_photos("me")]
@@ -105,7 +105,7 @@ async def del_pfp(_, message: Message):
 #-------------------------------------------------------------------------#
 
 
-@app.on_message(filters.command(["deldp2"]) & filters.user(OWNER_ID)
+@app.on_message(filters.command(["deldp2"]) & filters.user(OWNER_ID))
 async def del_pfp(_, message: Message):
 	try:
 		pfp = [p async for p in USER_TWO.get_chat_photos("me")]
@@ -118,7 +118,7 @@ async def del_pfp(_, message: Message):
 #-------------------------------------------------------------------------#
 
 
-@app.on_message(filters.command(["deldp3"]) & filters.user(OWNER_ID)
+@app.on_message(filters.command(["deldp3"]) & filters.user(OWNER_ID))
 async def del_pfp(_, message: Message):
 	try:
 		pfp = [p async for p in USER_THREE.get_chat_photos("me")]
@@ -131,7 +131,7 @@ async def del_pfp(_, message: Message):
 #-------------------------------------------------------------------------#
 
 
-@app.on_message(filters.command(["deldp4"]) & filters.user(OWNER_ID)
+@app.on_message(filters.command(["deldp4"]) & filters.user(OWNER_ID))
 async def del_pfp(_, message: Message):
 	try:
 		pfp = [p async for p in USER_FOUR.get_chat_photos("me")]
@@ -144,7 +144,7 @@ async def del_pfp(_, message: Message):
 #-------------------------------------------------------------------------#
 
 
-@app.on_message(filters.command(["deldp5"]) & filters.user(OWNER_ID)
+@app.on_message(filters.command(["deldp5"]) & filters.user(OWNER_ID))
 async def del_pfp(_, message: Message):
 	try:
 		pfp = [p async for p in USER_FIVE.get_chat_photos("me")]
