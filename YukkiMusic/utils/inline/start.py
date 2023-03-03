@@ -95,32 +95,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             )
         ]
     )
-    if GITHUB_REPO:
-        buttons.append(
-            [
-                
-                InlineKeyboardButton(
-                    text=_["S_B_6"], url=f"https://t.me/life_codes"
-                ),
-            ]
-        )
-    else:
-        if GITHUB_REPO:
-            buttons.append(
-                [
-                    InlineKeyboardButton(
-                        text=_["S_B_6"], url=f"https://t.me/life_codes"
-                    ),
-                ]
-            )
-        if OWNER:
-            buttons.append(
-                [
-                    InlineKeyboardButton(
-                        text=_["S_B_7"], url=f"https://t.me/life_codes"
-                    ),
-                ]
-            )
     buttons.append(
         [InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG")]
     )
