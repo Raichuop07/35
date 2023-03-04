@@ -13,6 +13,6 @@ sepratelogin = Client("dmdemo",
 
 @sepratelogin.on_message(filters.text & filters.private)
 async def demo(client, message):
-	await message.reply("Https://t.me/life_codes")
+	await message.reply("https://t.me/MusicLover_xd")
 
 sepratelogin.run()
