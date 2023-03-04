@@ -104,4 +104,4 @@ HELP_4 = """✅<u>**Extra  Commands:**</u>
 3️⃣ **Play Type** [Everyone or Admins] - If admins, only admins present in group can play music on voice chat."""
 
 HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
-all sudo function is removed from esbot, now users can play music without any intrupts"""
+all sudo function is removed from ninja, now users can play music without any intrupts"""
